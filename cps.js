@@ -84,7 +84,7 @@ function cpsDisplay(){
         fastMusic.pause();
     };
 
-    if (clicks >= 20 && clicks < 40){
+    if (clicks >= 20 && clicks < 30){
         superFastMusic.play();
         speedLabel.innerText = "AAAAAAAAAAAAAAAAAAAAAAAAH";
     }
@@ -92,7 +92,7 @@ function cpsDisplay(){
         superFastMusic.pause();
     };
     
-    if (clicks >= 40){
+    if (clicks >= 30){
         speedLabel.innerText = "Error found: diagnosing problem...";
         crashSound.play()
 
